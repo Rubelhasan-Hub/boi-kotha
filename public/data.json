@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Arif Rahman",
+    "description": "A mysterious story about a forest where people disappear and secrets unfold.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://ibb.co.com/P0VPmc7"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Mastery",
+    "author": "John Doe",
+    "description": "A complete guide to mastering JavaScript from beginner to advanced.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://ibb.co.com/xSq5qWGs"
+  },
+  {
+    "id": 3,
+    "title": "Space Beyond Earth",
+    "author": "Dr. Anika Sultana",
+    "description": "Explore the mysteries of space, planets, and the universe.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://ibb.co.com/bR5GypMR"
+  },
+  {
+    "id": 4,
+    "title": "Love in the Rain",
+    "author": "Nusrat Jahan",
+    "description": "A romantic story of two souls meeting in unexpected circumstances.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://ibb.co.com/KpJ04nfB"
+  },
+  {
+    "id": 5,
+    "title": "React for Beginners",
+    "author": "David Smith",
+    "description": "Learn React step by step and build modern web applications.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://ibb.co.com/1tkYLkxL"
+  },
+  {
+    "id": 6,
+    "title": "The Human Brain",
+    "author": "Dr. Kamal Hossain",
+    "description": "An insightful look into how the human brain works and processes information.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://picsum.photos/seed/book6/300/400"
+  },
+  {
+    "id": 7,
+    "title": "Hidden Truth",
+    "author": "Sabbir Ahmed",
+    "description": "A thriller story uncovering deep secrets and unexpected twists.",
+    "category": "Story",
+    "available_quantity": 3,
+    "image_url": "https://picsum.photos/seed/book7/300/400"
+  },
+  {
+    "id": 8,
+    "title": "Next.js in Action",
+    "author": "Michael Lee",
+    "description": "Build powerful web apps using Next.js with real-world examples.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://picsum.photos/seed/book8/300/400"
+  },
+  {
+    "id": 9,
+    "title": "Quantum World",
+    "author": "Dr. Farhana Islam",
+    "description": "Dive into the strange and fascinating world of quantum physics.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://picsum.photos/seed/book9/300/400"
+  },
+  {
+    "id": 10,
+    "title": "The Last Journey",
+    "author": "Imran Khan",
+    "description": "A touching story about life, loss, and the meaning of existence.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://picsum.photos/seed/book10/300/400"
+  },
+  {
+    "id": 11,
+    "title": "CSS Design Secrets",
+    "author": "Emily Clark",
+    "description": "Master modern CSS techniques and create stunning UI designs.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://picsum.photos/seed/book11/300/400"
+  },
+  {
+    "id": 12,
+    "title": "Evolution of Life",
+    "author": "Dr. Hasan Mahmud",
+    "description": "Understand how life evolved on Earth over millions of years.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://picsum.photos/seed/book12/300/400"
+  }
+]
