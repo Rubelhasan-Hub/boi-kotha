@@ -51,7 +51,7 @@
     "description": "An insightful look into how the human brain works and processes information.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url": "https://picsum.photos/seed/book6/300/400"
+    "image_url": "https://ibb.co.com/PZPh86Ff"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "A thriller story uncovering deep secrets and unexpected twists.",
     "category": "Story",
     "available_quantity": 3,
-    "image_url": "https://picsum.photos/seed/book7/300/400"
+    "image_url": "https://ibb.co.com/QFMn5SW0"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "Build powerful web apps using Next.js with real-world examples.",
     "category": "Tech",
     "available_quantity": 9,
-    "image_url": "https://picsum.photos/seed/book8/300/400"
+    "image_url": "https://ibb.co.com/Bk4C5sP"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "Dive into the strange and fascinating world of quantum physics.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url": "https://picsum.photos/seed/book9/300/400"
+    "image_url": "https://ibb.co.com/mF6Q0rtH"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "A touching story about life, loss, and the meaning of existence.",
     "category": "Story",
     "available_quantity": 6,
-    "image_url": "https://picsum.photos/seed/book10/300/400"
+    "image_url": "https://ibb.co.com/twZtgS5M"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "Master modern CSS techniques and create stunning UI designs.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://picsum.photos/seed/book11/300/400"
+    "image_url": "https://ibb.co.com/jkFvscMS"
   },
   {
     "id": 12,
@@ -105,6 +105,6 @@
     "description": "Understand how life evolved on Earth over millions of years.",
     "category": "Science",
     "available_quantity": 4,
-    "image_url": "https://picsum.photos/seed/book12/300/400"
+    "image_url": "https://ibb.co.com/TqnVb4Zh"
   }
 ]
