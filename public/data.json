@@ -5,7 +5,7 @@
     "author": "Arif Rahman",
     "description": "A mysterious story about a forest where people disappear and secrets unfold.",
     "category": "Story",
-    "available_quantity": 5,
+    "available_quantity": 120,
     "image_url": "https://i.ibb.co/3yQTbY2D/image.png"
   },
   {
@@ -14,7 +14,7 @@
     "author": "John Doe",
     "description": "A complete guide to mastering JavaScript from beginner to advanced.",
     "category": "Tech",
-    "available_quantity": 8,
+    "available_quantity": 250,
     "image_url": "https://i.ibb.co.com/4ZRNRzMf/image.png"
   },
   {
@@ -23,7 +23,7 @@
     "author": "Dr. Anika Sultana",
     "description": "Explore the mysteries of space, planets, and the universe.",
     "category": "Science",
-    "available_quantity": 6,
+    "available_quantity": 698,
     "image_url": "https://i.ibb.co.com/dJ4H3nwJ/image.png"
   },
   {
@@ -32,7 +32,7 @@
     "author": "Nusrat Jahan",
     "description": "A romantic story of two souls meeting in unexpected circumstances.",
     "category": "Story",
-    "available_quantity": 4,
+    "available_quantity": 124,
     "image_url": "https://i.ibb.co.com/sdZmx7Nc/image.png"
   },
   {
@@ -41,8 +41,8 @@
     "author": "David Smith",
     "description": "Learn React step by step and build modern web applications.",
     "category": "Tech",
-    "available_quantity": 10,
-    "image_url": "https://i.ibb.co.com/tT9w4954/image.png"
+    "available_quantity": 190,
+    "image_url": "https://i.ibb.co.com/6RdPNKGF/image.png"
   },
   {
     "id": 6,
@@ -50,7 +50,7 @@
     "author": "Dr. Kamal Hossain",
     "description": "An insightful look into how the human brain works and processes information.",
     "category": "Science",
-    "available_quantity": 7,
+    "available_quantity": 127,
     "image_url": "https://i.ibb.co.com/991TjrcC/image.png"
   },
   {
@@ -59,7 +59,7 @@
     "author": "Sabbir Ahmed",
     "description": "A thriller story uncovering deep secrets and unexpected twists.",
     "category": "Story",
-    "available_quantity": 3,
+    "available_quantity": 153,
     "image_url": "https://i.ibb.co.com/BVBj1Whk/image.png"
   },
   {
@@ -68,7 +68,7 @@
     "author": "Michael Lee",
     "description": "Build powerful web apps using Next.js with real-world examples.",
     "category": "Tech",
-    "available_quantity": 9,
+    "available_quantity": 239,
     "image_url": "https://i.ibb.co.com/Md8CxNh/image.png"
   },
   {
@@ -77,7 +77,7 @@
     "author": "Dr. Farhana Islam",
     "description": "Dive into the strange and fascinating world of quantum physics.",
     "category": "Science",
-    "available_quantity": 5,
+    "available_quantity": 125,
     "image_url": "https://i.ibb.co.com/Lhn4rD6C/image.png"
   },
   {
@@ -86,7 +86,7 @@
     "author": "Imran Khan",
     "description": "A touching story about life, loss, and the meaning of existence.",
     "category": "Story",
-    "available_quantity": 6,
+    "available_quantity": 126,
     "image_url": "https://i.ibb.co.com/zW8Yp1wh/image.png"
   },
   {
@@ -95,7 +95,7 @@
     "author": "Emily Clark",
     "description": "Master modern CSS techniques and create stunning UI designs.",
     "category": "Tech",
-    "available_quantity": 8,
+    "available_quantity": 128,
     "image_url": "https://i.ibb.co.com/7tFJLwWq/image.png"
   },
   {
@@ -104,7 +104,7 @@
     "author": "Dr. Hasan Mahmud",
     "description": "Understand how life evolved on Earth over millions of years.",
     "category": "Science",
-    "available_quantity": 4,
+    "available_quantity": 234,
     "image_url": "https://i.ibb.co.com/x8cpf1y5/image.png"
   }
 ]
