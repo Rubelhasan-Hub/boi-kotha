@@ -3,12 +3,11 @@ import { MdOutlineWifiTetheringErrorRounded } from "react-icons/md";
 
 const NotFound = () => {
     return (
-        <div className="mt-50 flex flex-col items-center">
+        <div className="mt-50 flex justify-center flex-col items-center">
             <div>
-                <h1 className="lg:text-9xl">404?😵</h1>
+                <h1 className="text-9xl text-center">404?😵</h1>
             </div>
             <div>
-                <h1 className="lg:text-9xl"><MdOutlineWifiTetheringErrorRounded /></h1>
                 <br></br>
                 <br></br>
                 <Link href="/"><button className="btn btn-accent text-3xl text-white">GO HOME</button></Link>
