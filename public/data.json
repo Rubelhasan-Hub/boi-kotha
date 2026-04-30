@@ -24,7 +24,7 @@
     "description": "Explore the mysteries of space, planets, and the universe.",
     "category": "Science",
     "available_quantity": 6,
-    "image_url": "https://ibb.co.com/bR5GypMR"
+    "image_url": "https://i.ibb.co.com/dJ4H3nwJ/image.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "A romantic story of two souls meeting in unexpected circumstances.",
     "category": "Story",
     "available_quantity": 4,
-    "image_url": "https://ibb.co.com/KpJ04nfB"
+    "image_url": "https://i.ibb.co.com/sdZmx7Nc/image.png"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "description": "Learn React step by step and build modern web applications.",
     "category": "Tech",
     "available_quantity": 10,
-    "image_url": "https://ibb.co.com/1tkYLkxL"
+    "image_url": "https://i.ibb.co.com/tT9w4954/image.png"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "description": "An insightful look into how the human brain works and processes information.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url": "https://ibb.co.com/PZPh86Ff"
+    "image_url": "https://i.ibb.co.com/991TjrcC/image.png"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "A thriller story uncovering deep secrets and unexpected twists.",
     "category": "Story",
     "available_quantity": 3,
-    "image_url": "https://ibb.co.com/QFMn5SW0"
+    "image_url": "https://i.ibb.co.com/BVBj1Whk/image.png"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "Build powerful web apps using Next.js with real-world examples.",
     "category": "Tech",
     "available_quantity": 9,
-    "image_url": "https://ibb.co.com/Bk4C5sP"
+    "image_url": "https://i.ibb.co.com/Md8CxNh/image.png"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "Dive into the strange and fascinating world of quantum physics.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url": "https://ibb.co.com/mF6Q0rtH"
+    "image_url": "https://i.ibb.co.com/Lhn4rD6C/image.png"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "A touching story about life, loss, and the meaning of existence.",
     "category": "Story",
     "available_quantity": 6,
-    "image_url": "https://ibb.co.com/twZtgS5M"
+    "image_url": "https://i.ibb.co.com/zW8Yp1wh/image.png"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "Master modern CSS techniques and create stunning UI designs.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url": "https://ibb.co.com/jkFvscMS"
+    "image_url": "https://i.ibb.co.com/7tFJLwWq/image.png"
   },
   {
     "id": 12,
@@ -105,6 +105,6 @@
     "description": "Understand how life evolved on Earth over millions of years.",
     "category": "Science",
     "available_quantity": 4,
-    "image_url": "https://ibb.co.com/TqnVb4Zh"
+    "image_url": "https://i.ibb.co.com/x8cpf1y5/image.png"
   }
 ]
