@@ -2,28 +2,44 @@
 import { Check } from "@gravity-ui/icons";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
 import { authClient } from "../../../lib/auth-client";
+import Link from "next/link";
+import { GrGoogle } from "react-icons/gr";
+import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 const Register = () => {
-
+    const router = useRouter()
 
     const handleRegister = async (e) => {
         e.preventDefault();
         const name = e.target.name.value
         const email = e.target.email.value
         const password = e.target.password.value
-        
+
 
 
         const { data, error } = await authClient.signUp.email({
 
             name: name,
             email: email,
-            password:password,
+            password: password,
             callbackURL: "/"
         })
 
-        console.log(data, error);
-        
+        if (error) {
+            toast.error(error.message || "Login failed!");
+            return;
+        }
+
+        toast.success("Registration successful!");
+        router.push("/login")
+
+    }
+
+    const handleGoogleSignUp = async () => {
+        await authClient.signIn.social({
+            provider: "google",
+        });
     }
     return (
         <div className="flex items-center justify-center m-20">
@@ -81,14 +97,16 @@ const Register = () => {
                     <FieldError />
                 </TextField>
                 <div className="flex gap-2">
-                    <Button type="submit" className="font-bold btn btn-accent">
+                    <Button type="submit" className="font-bold btn btn-info">
                         <Check />
-                        Registration
+                        SignUp
                     </Button>
                     <Button type="reset" variant="secondary" className="font-bold btn">
                         Reset
                     </Button>
                 </div>
+                <p className="text-center">or</p>
+                <button onClick={handleGoogleSignUp} className="btn btn-info w-full font-bold"><GrGoogle />Register With Google</button>
             </Form>
         </div>
     );

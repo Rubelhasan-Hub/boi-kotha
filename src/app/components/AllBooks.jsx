@@ -15,7 +15,7 @@ const AllBooks = ({ data }) => {
     })
 
     return (
-        <div className="container mx-auto mb-20 lg:flex gap-10 mt-20 space-y-6">
+        <div className="container mx-auto mb-20 lg:flex gap-10 mt-20 space-y-30">
 
             <div className="mt-10 space-y-4 h-40">
 
@@ -39,7 +39,7 @@ const AllBooks = ({ data }) => {
                     </div>
                     <div>
                         <label className="input">
-                            <input value={searchText} onChange={(e) => setSearchText(e.target.value)} className="p-2 px-7 border" type="search" required placeholder="🔍 Search" />
+                            <input value={searchText} onChange={(e) => setSearchText(e.target.value)} type="search" required placeholder="🔍 Search" />
 
                         </label>
                     </div>
