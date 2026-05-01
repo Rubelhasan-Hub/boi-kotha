@@ -1,10 +1,9 @@
+import Register from "../../components/Register";
 
 
 const RegisterPage = () => {
     return (
-        <div>
-            Register Your Id
-        </div>
+       <Register/>
     );
 };
 

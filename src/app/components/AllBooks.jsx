@@ -15,10 +15,11 @@ const AllBooks = ({ data }) => {
     })
 
     return (
-        <div className="container mx-auto m-20 flex gap-10">
-            <div className="w-52 mt-20 bg-base-200 text-base-content p-5 rounded-xl space-y-4 shadow-lg">
+        <div className="container mx-auto mb-20 lg:flex gap-10 mt-20 space-y-6">
 
-                <h2 className="text-xl font-bold">Categories</h2>
+            <div className="mt-10 space-y-4 h-40">
+
+                <h2 className="text-4xl font-bold text-center">Categories</h2>
 
                 <div className="flex flex-col gap-3">
                     <button onClick={() => setSelectedCategory("All")} className={`w-full ${selectedCategory === "All" ? " btn-accent btn px-6" : "btn btn-outline"}`}>All</button>
@@ -30,8 +31,9 @@ const AllBooks = ({ data }) => {
                     <button onClick={() => setSelectedCategory("Tech")} className={`w-full ${selectedCategory === "Tech" ? "btn btn-accent" : "btn btn-outline"}`}>Tech</button>
                 </div>
             </div>
+
             <div className="space-y-6">
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center">
                     <div>
                         <h1 className="lg:text-4xl font-bold">ALL BOOKS :</h1>
                     </div>
@@ -49,6 +51,7 @@ const AllBooks = ({ data }) => {
                     }
                 </div>
             </div>
+
         </div>
     );
 };

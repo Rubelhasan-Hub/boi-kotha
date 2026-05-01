@@ -13,7 +13,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     return (
         <div>
-            <nav className="w-full bg-background/70 backdrop-blur-lg lg:p-3 text-white ">
+            <nav className="w-full backdrop-blur-lg lg:p-3 text-white bg-transparent">
                 <header className="flex h-16 items-center justify-between px-3 lg:px-6">
                     <div className="flex items-center gap-3">
                         <Link href='/'>

@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Login from "../../components/Login";
+
+
 
 
 const LoginPage = () => {
     return (
         <div>
-            Login Page
-            <br />
-            <Link href='/register' className="btn ">Registration</Link>
+            <Login/>
         </div>
     );
 };
