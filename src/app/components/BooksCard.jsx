@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const BooksCard = ({ data }) => {
 
@@ -14,7 +15,7 @@ const BooksCard = ({ data }) => {
                     <h1 className="font-semibold text-xl ">⭐⭐⭐⭐⭐ <span className="opacity-65">({data.available_quantity})</span></h1>
                 </div>
             </div>
-            <button className="btn btn-outline">View Details</button>
+            <Link href={`/all-books/${data.id}`}><button className="btn btn-outline w-full">View Details</button></Link>
         </div>
     );
 };
