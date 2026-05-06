@@ -16,7 +16,7 @@ const Login = () => {
 
 
 
-        const { data, error } = await authClient.signIn.email({
+        const { error } = await authClient.signIn.email({
 
             name: name,
             email: email,

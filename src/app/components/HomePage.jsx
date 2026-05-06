@@ -9,13 +9,13 @@ const HomePage = async () => {
 
     return (
         <div className="container mx-auto space-y-6 mb-20">
-            <div className="lg:flex justify-between items-center mt-15">
+            <div className="lg:flex justify-between items-center mt-15 lg:min-h-162.5">
                 <div className="space-y-5">
                     <h1 className="text-3xl lg:text-8xl font-semibold animate__animated animate__zoomIn">Find Your Next Read</h1>
                     <button className="btn p-7 text-2xl animate__animated animate__slideInUp">Browse Now</button>
                 </div>
-                <div className="relative">
-                    <Image src="/image/person.png" width={1000} height={1000} alt="a person Who reading the book" className="bg-[#b5b6b5] rounded-[100%_0%]"></Image>
+                <div>
+                    <Image src="/image/person.png" width={1000} height={1000} alt="a person Who reading the book" className="bg-[#b5b6b5] rounded-[100%_0%]" priority ></Image>
                 </div>
             </div>
 
