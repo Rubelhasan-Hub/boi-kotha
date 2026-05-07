@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
                     <div className="hidden md:block">
                         {!user && <div className="flex gap-4"><Link href="/login">
-                            <button className="btn font-bold ">SignIn</button>
+                            <button className="btn font-bold ">Login</button>
                         </Link> <Link href="/register">
                                 <button className="btn font-bold">SignUp</button>
                             </Link></div>}
@@ -61,7 +61,7 @@ const Navbar = () => {
                                     {user?.name?.charAt(0)?.toUpperCase()}
                                 </div>
                             )}
-                            <button onClick={handleSignOut} className="btn font-bold text-xl">Sign Out</button>
+                            <button onClick={handleSignOut} className="btn font-bold text-xl">Logout</button>
                         </div>}
                     </div>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
                             <div className="">
                                 <div>
                                     {!user && <div className="flex gap-1"><Link href="/login">
-                                        <button className="btn font-bold ">SignIn</button>
+                                        <button className="btn font-bold ">Login</button>
                                     </Link> <Link href="/register">
                                             <button className="btn font-bold">SignUp</button>
                                         </Link></div>}
@@ -103,7 +103,7 @@ const Navbar = () => {
                                                 {user.name?.charAt(0)?.toUpperCase()}
                                             </div>
                                         )}
-                                        <button onClick={handleSignOut} className="btn font-bold text-sm">Sign Out</button>
+                                        <button onClick={handleSignOut} className="btn font-bold text-sm">Logout</button>
                                     </div>}
                                 </div>
                             </div>

@@ -43,7 +43,7 @@ const Register = () => {
         });
     }
     return (
-        <div className="flex items-center justify-center m-20">
+        <div className="flex items-center justify-center mt-20 mb-20">
             <Form className="flex w-96 flex-col gap-4 border-4 border-gray-400 p-10 rounded-2xl" onSubmit={handleRegister}>
                 <TextField
                     isRequired
@@ -114,7 +114,7 @@ const Register = () => {
                     </Button>
                 </div>
                 <p className="text-center">or</p>
-                <button onClick={handleGoogleSignUp} className="btn btn-outline w-full font-bold"><GrGoogle />Register With Google</button>
+                <button onClick={handleGoogleSignUp} className="text-[12px] btn btn-outline w-full font-bold"><GrGoogle />Register With Google</button>
             </Form>
         </div>
     );

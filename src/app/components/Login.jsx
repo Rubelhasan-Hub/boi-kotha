@@ -39,7 +39,7 @@ const Login = () => {
         });
     }
     return (
-        <div className="flex items-center justify-center m-20">
+        <div className="flex items-center justify-center mt-20 mb-20">
             <Form onSubmit={handleLogin} className="flex w-96 flex-col gap-4 border-4 border-gray-400 p-10 rounded-2xl">
                 <TextField
                     isRequired
@@ -90,7 +90,7 @@ const Login = () => {
                 </div>
                 <h1>Do not have Account ? <Link href="/register"><button className="text-secondary cursor-pointer">Registration</button></Link></h1>
                 <p className="text-center">or</p>
-                <button onClick={handleGoogleSignIn} className="btn btn-outline w-full font-bold"><GrGoogle />Login With Google</button>
+                <button onClick={handleGoogleSignIn} className="text-sm btn btn-outline w-full lg:font-bold"><GrGoogle />Login With Google</button>
             </Form>
         </div>
     );
