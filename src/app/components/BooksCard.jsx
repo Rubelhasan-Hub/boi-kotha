@@ -10,7 +10,6 @@ const BooksCard = ({ data }) => {
             </figure>
             <div className="card-body p-6 space-y-4">
                 <h2 className="card-title text-3xl">{data.title}</h2>
-                <p className="text-gray-300 line-clamp-2">{data.description}</p>
                 <div className="card-actions justify-start items-center">
                     <h1 className="font-semibold text-xl ">⭐⭐⭐⭐⭐ <span className="opacity-65">({data.available_quantity})</span></h1>
                 </div>

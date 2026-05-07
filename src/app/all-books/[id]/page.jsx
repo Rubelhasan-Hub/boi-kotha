@@ -1,3 +1,5 @@
+import BookDetails from "../../components/BookDetails";
+
 
 const BookDetailsPage = async ({ params }) => {
     const { id } = await params
@@ -6,11 +8,9 @@ const BookDetailsPage = async ({ params }) => {
     const data = await res.json()
 
     const detailsData = data.find((d) => d.id == id);
-
-    console.log(detailsData);
     return (
         <div>
-            <h1>{detailsData.title}</h1>
+            <BookDetails detailsData={detailsData} />
         </div>
     );
 };

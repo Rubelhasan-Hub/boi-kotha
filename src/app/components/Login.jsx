@@ -90,7 +90,7 @@ const Login = () => {
                 </div>
                 <h1>Do not have Account ? <Link href="/register"><button className="text-secondary cursor-pointer">Registration</button></Link></h1>
                 <p className="text-center">or</p>
-                <button onClick={handleGoogleSignIn} className="btn btn-info w-full font-bold"><GrGoogle />Login With Google</button>
+                <button onClick={handleGoogleSignIn} className="btn btn-outline w-full font-bold"><GrGoogle />Login With Google</button>
             </Form>
         </div>
     );

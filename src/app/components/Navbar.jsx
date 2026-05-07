@@ -5,11 +5,13 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { GiBookAura } from "react-icons/gi";
 import { authClient } from "../../../lib/auth-client";
+import Image from "next/image";
 
 
 const Navbar = () => {
     const { data } = authClient.useSession()
     const user = data?.user
+
 
     const pathName = usePathname()
 
@@ -20,7 +22,7 @@ const Navbar = () => {
     }
     return (
         <div>
-            <nav className="w-full backdrop-blur-lg lg:p-3 text-white bg-transparent relative">
+            <nav className="w-full backdrop-blur-lg lg:p-3 text-white bg-transparent relative z-50">
                 <header className="flex h-16 items-center justify-between px-3 lg:px-6">
                     <div>
                         <Link href='/'>
@@ -46,6 +48,19 @@ const Navbar = () => {
                             </Link></div>}
                         {user && <div className="flex gap-4 items-center">
                             <h1 className="text-2xl font-semibold bg-amber-400 text-black px-2 rounded-sm">{user.name}</h1>
+                            {user?.image ? (
+                                <Image
+                                    src={user.image}
+                                    alt={user.name || "user"}
+                                    width={40}
+                                    height={40}
+                                    className="w-10 h-10 rounded-full object-cover border-2 border-cyan-400"
+                                />
+                            ) : (
+                                <div className="w-10 h-10 rounded-full bg-amber-400 text-black flex items-center justify-center font-bold">
+                                    {user?.name?.charAt(0)?.toUpperCase()}
+                                </div>
+                            )}
                             <button onClick={handleSignOut} className="btn font-bold text-xl">Sign Out</button>
                         </div>}
                     </div>
@@ -73,8 +88,21 @@ const Navbar = () => {
                                 </div>
                                 <div>
                                     {user && <div className="flex gap-4 items-center">
-                                        <h1 className="text-xl font-semibold bg-amber-400 text-black px-2 rounded-sm">{user.name}</h1>
-                                        <button onClick={handleSignOut} className="btn font-bold">Sign Out</button>
+                                        <h1 className="text-sm font-semibold bg-amber-400 text-black px-2 rounded-sm">{user.name}</h1>
+                                        {user?.image ? (
+                                            <Image
+                                                src={user.image}
+                                                alt={user.name || "user"}
+                                                width={40}
+                                                height={40}
+                                                className="w-10 h-10 rounded-full object-cover border-2 border-cyan-400"
+                                            />
+                                        ) : (
+                                            <div className="w-10 h-10 rounded-full bg-amber-400 text-black flex items-center justify-center font-bold">
+                                                {user.name?.charAt(0)?.toUpperCase()}
+                                            </div>
+                                        )}
+                                        <button onClick={handleSignOut} className="btn font-bold text-sm">Sign Out</button>
                                     </div>}
                                 </div>
                             </div>

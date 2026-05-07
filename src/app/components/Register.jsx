@@ -2,7 +2,6 @@
 import { Check } from "@gravity-ui/icons";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
 import { authClient } from "../../../lib/auth-client";
-import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
@@ -15,13 +14,15 @@ const Register = () => {
         const name = e.target.name.value
         const email = e.target.email.value
         const password = e.target.password.value
+        const image = e.target.image.value;
 
 
 
-        const { data, error } = await authClient.signUp.email({
+        const {error } = await authClient.signUp.email({
 
             name: name,
             email: email,
+            image: image,
             password: password,
             callbackURL: "/"
         })
@@ -75,6 +76,13 @@ const Register = () => {
                 </TextField>
                 <TextField
                     isRequired
+                    name="image">
+                    <Label className="text-white">Image URl</Label>
+                    <Input placeholder="Enter image URL" />
+                    <FieldError />
+                </TextField>
+                <TextField
+                    isRequired
                     minLength={8}
                     name="password"
                     type="password"
@@ -106,7 +114,7 @@ const Register = () => {
                     </Button>
                 </div>
                 <p className="text-center">or</p>
-                <button onClick={handleGoogleSignUp} className="btn btn-info w-full font-bold"><GrGoogle />Register With Google</button>
+                <button onClick={handleGoogleSignUp} className="btn btn-outline w-full font-bold"><GrGoogle />Register With Google</button>
             </Form>
         </div>
     );

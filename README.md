@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Project Name: BOI-KOTHA 📚
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+BOI-KOTHA is a modern book-selling web application where users can explore books, create an account, log in, and manage their profile information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Purpose
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The main purpose of this project is to build a secure and user-friendly online book platform. Visitors can see featured books, but only registered and logged-in users can access the All Books page and Profile page. After login, the user name is displayed in the navbar, and users can update their profile information from the profile section.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live URL
 
-## Learn More
+Live Site:https://boi-kotha.vercel.app
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- User Registration and login system
+- Google login authentication
+- Protected All Books page
+- Protected Profile page
+- User name shown in navbar after login
+- profile information update option
+- Category based books filtering and search option
+- logout Functionality 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## NPM Packages Used
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `next`
+- `react`
+- `react-dom`
+- `better-auth`
+- `mongodb`
+- `lucide-react`
+- `react-icons`
+- `react-fast-marquee`
+- `animate.css`
