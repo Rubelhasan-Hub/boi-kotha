@@ -71,6 +71,7 @@ const Navbar = () => {
                         </button>
                     </div>
                 </header>
+                
                 {isMobileMenuOpen && (<div className="flex justify-end md:hidden absolute top-13 left-10 right-0 z-100">
                     <div className="bg-gray-700 p-3 rounded-2xl">
                         <ul className="p-5 space-y-4">

@@ -45,7 +45,7 @@ const AllBooks = ({ data }) => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
+                <div className="grid grid-cols-2 gap-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:gap-7">
                     {
                         filteredData.map(d => <BooksCard key={d.id} data={d}></BooksCard>)
                     }
